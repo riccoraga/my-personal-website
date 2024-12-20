@@ -1,0 +1,54 @@
+/* nav.css */
+/* CSS styles for the navigation created by [Riccardo Ragazzo, 2024] */
+
+nav a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: transparent;
+  margin: 10px; /* Add some space around the container */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the menu horizontal */
+  justify-content: space-around; /* Evenly distribute the items */
+  align-items: center; /* Center items vertically */
+}
+
+nav ul li {
+  margin: 0;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 2px solid white; /* Border width, style, and color */
+  border-radius: 5% ; /* Slightly rounded corners change the radius for more */
+  padding: 10px;
+  margin: 10px; /* Add some space around the container */
+  cursor: pointer;
+}
+
+nav ul li a {
+  display: flex; /* Makes the links horizontal */
+  align-items: center;  /* Will be used to vertically center the images */
+  color: white; /* Change the text color, omitted as images are displayed*/
+  text-decoration: none;
+  padding: 10px 10px; /* Padding for space between items */
+  transition: background-color 0.3s; /* Will create a delay with the hover effect */
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+nav ul li img {
+  height: 140px;
+  width: 140px; 
+  margin-right: 10px; /* Add some space between the image and the text */
+  transition: transform 0.3s; /* Add a transition effect */
+}
+
+nav ul li a:hover img {
+  transform: scale(1.5); /* Scale the image on hover */
+}

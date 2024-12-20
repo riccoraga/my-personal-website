@@ -1,0 +1,122 @@
+/* form.css */
+/* CSS styles for the form created by [Riccardo Ragazzo, 2024] */
+
+/* Style class for the form div container */
+.formDiv {
+  width: 80%; /* Set the width to 80% of the parent container */
+  max-width: 800px; /* Maximum width of 1200px */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 2px solid white; /* Border width, style, and color */
+  border-radius: 10% 45% 30% 10%; /* Slightly rounded corners change the radius for more */
+  padding: 0px; /* Padding of 30px inside the container */
+  display: fixed; /* Enable fixed layout */
+  align-items: center; /* Center items vertically */
+  align-content: center; /* Align content in the center */
+  background-color: rgba(0, 0, 0, 0.534); /* Background color set to black */
+  color: white; /* Text color set to white */
+}
+
+.form-container {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: 1fr 1fr; /* Create 2 columns */
+  gap: 10px; /* Add space between grid items */
+  width: 100%; /* Set the width of the grid container */
+  max-width: 1200px; /* Maximum width of the grid container */
+  padding: 10px; /* Padding inside the grid container */
+  background-color: transparent; /* Set background color */
+  border: 2px solid white; /* Add a solid border around the container */
+  border-radius: 4%; /* Slightly rounded corners - change the radius for more */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  align-items: center; /* Align items at the center of the container */
+  align-content: center; /* Align content at the center of the container */
+  margin: 10px; /* Add some space around the grid container */
+}
+
+.form-grid {
+  display: flex; /* Use flexbox for inner content alignment */
+  align-items: center; /* Vertically center content inside the grid item */
+  justify-content: center; /* Horizontally center content inside the grid item */
+  background-color: #000000a1; /* Set background color to black with a bit of transparency */
+  border: 1px solid white; /* Add a border around each grid item */
+  border-radius: 4%; /* Slightly rounded corners - change the radius for more */
+  padding: 2px; /* Padding inside each grid item */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  cursor: pointer; /* Change the cursor to a pointing hand when hovering */
+  transition: transform 0.3s;
+}
+
+/* Style id for the ordered list */
+#orderedList {
+  color: white;
+  font-size: larger;
+}
+
+#font-32-px {
+  font-size: 32px;
+}
+
+#font-28-px {
+  font-size: 28px;
+}
+
+#font-28-px-red {
+  font-size: 28px;
+  color: rgba(255, 72, 0, 0.836);
+}
+
+#font-28-px-blue {
+  font-size: 28px;
+  color: rgba(0, 102, 255, 0.836);
+}
+
+#font-28-px-green {
+  font-size: 28px;
+  color: rgba(30, 255, 0, 0.836);
+}
+
+.image-movies {
+  height: 300px;
+  width: 300px;
+  transition: transform 0.3s; /* Add a transition effect */
+  border: 2px solid white; /* Border width, style, and color */
+  border-radius: 10% 45% 30% 10%; /* Slightly rounded corners change the radius for more */
+}
+
+/* Style class for the form image */
+.formImage {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white; /* Border width, style, and color */
+  border-radius: 45% 10% 10% 30%; /* Slightly rounded corners change the radius for more */
+}
+
+/* Wet Code as using the one from grid.css it is not working */
+
+/* Enlarge for JavaScript */
+.form-grid.enlarged {
+  transform: scale(1.7); /* Enlarge the item */
+  z-index: 1.5; /* Ensure it appears above other elements */
+
+  /* Tryout for JavaScript */
+  font-size: 48px;
+  color: rgb(6, 170, 55);
+}
+
+.form-grid.enlarged-text {
+  font-size: 64px;
+  color: rgb(6, 170, 55);
+}
+
+/* Style for the form textbox button */
+.form-textbox {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Effects for the item on hover*/
+.form-grid:hover {
+  /*transform: scale(1.08); /* Scale the image on hover !!! Interfer with the enlarged style REMOVED for now*/ 
+  border: 3px solid rgba(0, 17, 255, 0.753); /* Add a border around each grid item */
+}

@@ -1,0 +1,52 @@
+/* footer.css */
+/* CSS styles for the form created by [Riccardo Ragazzo, 2024] */
+
+/* Footer box style */
+.footer-box {
+  width: 1200px; /* Set the width to 80% of the parent container */
+  max-width: 800px; /* Maximum width of 1200px */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 2px solid white; /* Border width, style, and color */
+  border-radius: 10% 45% 30% 10%; /* Slightly rounded corners change the radius for more */
+  padding: 0px; /* Padding of 30px inside the container */
+  display: fixed; /* Enable fixed layout */
+  align-items: center; /* Center items vertically */
+  align-content: center; /* Align content in the center */
+  background-color: rgba(0, 0, 0, 0.534); /* Background color set to black */
+  color: white; /* Text color set to white */
+}
+
+/* Footer container */
+.footer-container {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: 3fr; /* Create 1 columns */
+  gap: 10px; /* Add space between grid items */
+  width: 100%; /* Set the width of the grid container */
+  max-width: 1200px; /* Maximum width of the grid container */
+  padding: 10px; /* Padding inside the grid container */
+  background-color: transparent; /* Set background color */
+  border: 2px solid white; /* Add a solid border around the container */
+  border-radius: 4%; /* Slightly rounded corners - change the radius for more */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  align-items: center; /* Align items at the center of the container */
+  align-content: center; /* Align content at the center of the container */
+  margin: 10px; /* Add some space around the grid container */
+}
+
+/* Footer grid style */
+.footer-grid {
+  display: flex; /* Use flexbox for inner content alignment */
+  align-items: center; /* Vertically center content inside the grid item */
+  justify-content: left; /* Horizontally the content start from left inside the grid item */
+  background-color: #000000a1; /* Set background color to black with a bit of transparency */
+  border: 1px solid white; /* Add a border around each grid item */
+  border-radius: 4%; /* Slightly rounded corners - change the radius for more */
+  padding: 2px; /* Padding inside each grid item */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#footer-large-white-font {
+  font-size: 82;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,91 @@
+/* grid.css */
+/* CSS styles for texts created by [Riccardo Ragazzo, 2024] */
+
+
+/* Class style for text */
+text {
+    font-style: normal; /* Set the font style to normal */ 
+    padding: 1px; /* Creates spaces between text and other elements */
+}
+
+/* ID Style for text red, bold and larger*/
+#text-red-bold {
+    color: rgb(201, 6, 6);
+    font-weight: bold;
+    font-size: 42px;
+}
+
+/* ID Style for text green, bold and larger*/
+#text-green-bold {
+    color: rgb(6, 170, 55);
+    font-weight: bold;
+    font-size: 42px;
+}
+
+/* ID Style for text white, bold and larger*/
+#text-white-bold {
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+/* ID Style for text blue, bold and larger*/
+#text-blue-bold {
+    color: rgb(8, 223, 238);
+    font-weight: bold;
+    font-size: 42px;
+}
+#text-main-index {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.h1-special {
+    font-size: 42px;
+    color: rgb(6, 170, 55);
+}
+
+.h2-special  {
+    font-size: 36px;
+    color: rgb(233, 12, 12);
+}
+
+.h3-special  {
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+
+.h1-larger-white {
+    font-size: 72;
+    color: white;
+    font-weight: bold;
+}
+
+
+.colorGreen {
+    font-size: larger;
+    color: rgb(64, 233, 12);
+    font-weight: bold;
+}
+
+.colorMagenta{
+    font-size: larger;
+    color: rgb(204, 14, 147);
+    font-weight: bold;
+
+}
+
+/* Style class for links */
+.links {
+    font-size: 48;
+    text-decoration: none;
+    color: aqua;
+    font-size: larger;
+    padding: 10px 20px 10px 0px;
+}
+
+.color-white-medium {
+    color: white;
+    font-size: 28;
+}

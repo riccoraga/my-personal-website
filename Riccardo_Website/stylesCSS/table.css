@@ -1,0 +1,42 @@
+/* nav.css */
+/* CSS styles for Table created by [Riccardo Ragazzo, Dec 2024] */
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+th,
+td {
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+th {
+  color: rgb(241, 217, 0);
+  font-size: larger;
+}
+
+#td-blue {
+  color: rgb(0, 119, 255);
+}
+
+/* This is for the image on the grid that represent the table */
+.imageStats {
+  height: 400px;
+  width: 400px;
+  
+  transition: transform 0.3s; /* Add a transition effect */
+}
+
+/* Enlarge for JavaScript for Table*/
+.table-enlarged {
+  transform: scale(1.7); /* Enlarge the item */
+  z-index: 1.5; /* Ensure it appears above other elements */
+
+  /* Tryout for JavaScript 
+  font-size: 64px;
+  color: rgb(6, 170, 55);*/
+}

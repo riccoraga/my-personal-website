@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riccardo's Website</title>
+    <link
+      rel="icon"
+      href="images/favicon/favicon with RR.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="stylesCSS/index.css" />
+    <link rel="stylesheet" href="stylesCSS/grid.css" />
+    <link rel="stylesheet" href="stylesCSS/texts.css" />
+    <link rel="stylesheet" href="stylesCSS/nav.css" />
+    <link rel="stylesheet" href="stylesCSS/table.css" />
+    <link rel="stylesheet" href="stylesCSS/form&list.css" />
+    <link rel="stylesheet" href="stylesCSS/footer.css" />
+
+    <script src="JavaScripts/enlargeAbout.js"></script>
+    <script src="JavaScripts/enlargeTable.js"></script>
+    <script src="JavaScripts/enlargeHobbies.js"></script>
+    <script src="JavaScripts/enlargeMe.js"></script>
+    <script src="JavaScripts/enlargeMovies.js"></script>
+    <script src="JavaScripts/enlargeScrivimi.js"></script>
+  </head>
+  <body>
+    <header class="header"></header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html"
+            ><img src="stylesCSS/images/home.png" alt="Home"
+          /></a>
+        </li>
+        <li>
+          <a href="#about"
+            ><img src="stylesCSS/images/about.png" alt="About"
+          /></a>
+        </li>
+        <li>
+          <a href="#curiosity"
+            ><img src="stylesCSS/images/curiosity.png" alt="Stats"
+          /></a>
+        </li>
+        <li>
+          <a href="#me"><img src="stylesCSS/images/me.png" alt="Me" /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="mainContainer">
+      <div>
+        <h1 class="h1-special">Hello people!</h1>
+        <h3 class="h3-special">
+          My name is Riccardo, I am originally from Sardinia in Italy.
+        </h3>
+        <h2 class="h2-special">
+          Have a look around and find more about me and my interests.
+        </h2>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item" id="about" onclick="changeAbout()">
+        <img
+          src="stylesCSS/images/ITImage.png"
+          alt="About me"
+          class="imageStats"
+          id="imageContent"
+        />
+      </div>
+
+      <div class="grid-item" id="curiosity" onclick="tableEnlarge()">
+        <img
+          src="stylesCSS/images/statsTable.png"
+          alt="Stats and More"
+          class="imageStats"
+        />
+      </div>
+
+      <div class="grid-item" onclick="changeHobbies()" id="hobbies">
+        <img
+          src="stylesCSS/images/tennis.png"
+          alt="Hobbies"
+          class="imageStats"
+        />
+      </div>
+
+      <div class="grid-item" id="me" onclick="changeMe()">
+        <img src="stylesCSS/images/io.png" alt="io" class="imageStats" />
+      </div>
+    </div>
+
+    <div class="form-container">
+      <div class="form-grid" id="form" onclick="enlargeForm()">
+        <!--!!!IMPORTANT TO BE REMOVED one function!!! changeForm(),-->
+        <img
+          src="stylesCSS/images/scrivimi.png"
+          alt="SCRIVIMI"
+          class="formImage"
+        />
+      </div>
+      <div class="form-grid" id="movies" onclick="changeMovies()">
+        <img
+          src="stylesCSS\\images\\moviesImage.png"
+          alt="About me"
+          class="image-movies"
+        />
+      </div>
+    </div>
+    <footer>
+      <div class="footer-box">
+        <div class="footer-container">
+          <p class="footer-grid" id="footer-large-white-font">Riccardo's Website Copyright 2024</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

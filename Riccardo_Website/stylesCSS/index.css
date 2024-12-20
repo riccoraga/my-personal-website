@@ -1,0 +1,82 @@
+/* index.css */
+/* CSS styles for index.html created by [Riccardo Ragazzo, 2024] */
+
+/* All styles */
+* {
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  height: 100%; /* Set height to 100% */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center the container */
+  justify-content: center; /* Horizontally center the container */
+  /* background-color: #aca5a5; /* Set a light grey background color */ /* Removed */
+  padding: 20px; /* Creates space between the body and container */
+  flex-direction: column; /* Arrange items in a column */
+  background-image: url("images/backgroundIndex.png"); /* Path to the image */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.header {
+  width: 80%; /* Width ...*/ /* IMPORTANT TO BE ADJUSTED */
+  text-align: center; /* Center text */
+  padding: 20px 100px 240px 100px; /* Padding inside the header */
+  background-color: #333; /* Dark background color */
+  color: white; /* White text color */
+  border: 3px solid white; /* Border width, style, and color */
+  border-radius: 10% 20% 30% 80%; /* Slightly rounded corners change the radius for more */
+  background-image: url("images/Riccardo_1200px by 200px.png"); /* Path to the image */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+.mainContainer {
+  width: 80%; /* Set the width to 80% of the parent container */
+  max-width: 1200px; /* Maximum width of 1200px */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 2px solid white; /* Border width, style, and color */
+  border-radius: 10% 45% 30% 10%; /* Slightly rounded corners change the radius for more */
+  padding: 0px; /* Padding of 30px inside the container */
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center items vertically */
+  align-content: center; /* Align content in the center */
+  background-color: rgba(0, 0, 0, 0.534); /* Background color set to black */
+  color: white; /* Text color set to white */
+}
+
+#flex-container {
+  display: flex; /* Enable flexbox layout */
+  gap: 10px; /* Add space between items */
+  align-items: center; /* Center items vertically */
+
+  /*
+ Add a box with borders 
+*/
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 1px solid white; /* Border width, style, and color */
+  border-radius: 10% 20% 30% 80%; /* Slightly rounded corners change the radius for more */
+}
+
+.flex-container-style {
+  flex: 1; /* Allow items to grow/shrink equally */
+  /* overflow: hidden; /* Hide any overflow */
+  transition: flex 0.3s ease; /* Smooth transition for flex property */
+}
+
+.text-flex {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space */
+}
+
+.text-flex:hover {
+  flex: 3; /* Changes the flex size on hover */
+  font-size: 6.5em; /* Changes the font size on hover */
+}
