@@ -1,5 +1,5 @@
-This project was created for a task, La Fosse Academy
-The code need to be cleaned and checked, but overall the Website is working fine.
+This project was created for a task for La Fosse Academy.
+The code needs to be cleaned and checked, but the Website is working fine overall.
 The Form is not connected, it will not send any email.
-All images are originally created, not copyright infrangements.
-Feel free to comment on my project.
+All images are originally created, not copyright infringements.
+Please feel free to comment on my project.
