@@ -5,7 +5,7 @@
 // The constant that contains the form to be changed !!! action="/submit_form" onclick="closeForm()"
 const formTextContent = `
 <div class="enlarged">
- <form method="post" class="h3-special" id="contactForm">
+ <form method="post" class="h3-special" id="contactForm" netlify>
  <label for="name">Name:</label><br>
  <input type="text" id="name" name="name" placeholder="please write your name" class="form-textbox"><br><br>
  <label for="email">Email:</label><br>
